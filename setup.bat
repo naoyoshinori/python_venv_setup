@@ -120,6 +120,9 @@ echo   setup --main main --py 3.10 --env development
 echo.
 echo Options:
 echo   --main       Set the main name of the application.
+echo                The default is to create main.py and main.bat.
 echo   --py         Set Python version.
+echo                The default is the installed version.
 echo   --env        Set the environment to development or production.
+echo                The default is production.
 exit /b
